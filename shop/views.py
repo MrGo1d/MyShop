@@ -91,6 +91,7 @@ def product_detail(request, id, slug):
 
 
 def run():
+    """For price download and image, desc update."""
     shop.price_form.directory_cleaning()
     outfilename = shop.price_form.file_download("https://microinform.by/downloads/m_price.rar")
     shop.price_form.rar_unpacking(outfilename)
