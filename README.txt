@@ -1,4 +1,4 @@
-This is my first django project.
+:rocket: This is my first django project.
 I created online-store for b2b sales.
 
 The uniques of this platform - simplest add product to site:
